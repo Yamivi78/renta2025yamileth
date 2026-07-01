@@ -263,6 +263,33 @@ body{
   color:#fff;flex-shrink:0;margin-top:2px;
   padding:0 5px;
 }
+
+/* ── RESPONSIVE MOBILE ── */
+@media (max-width:480px){
+  body{padding:1rem 0.75rem 2rem}
+  .wrap{max-width:100%;padding:0 10px}
+  .header{padding:1.5rem 0.75rem 1.25rem}
+  .search-row{flex-wrap:wrap}
+  .search-row input{min-width:0;flex:1 1 60%;font-size:14px;padding:10px 12px}
+  .search-row button{flex:1 1 35%;min-width:60px;padding:10px 10px;font-size:13px;gap:4px}
+  .search-row button i{font-size:14px}
+  .search-row button span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .card{padding:1rem;margin-bottom:0.9rem}
+  .info-grid{gap:8px}
+  .info-item{padding:0.75rem 0.6rem}
+  .info-item .val.big{font-size:20px}
+  .header h1{font-size:19px}
+}
+
+@media (max-width:360px){
+  body{padding:0.8rem 0.6rem 1.5rem}
+  .wrap{padding:0 8px}
+  .search-row{gap:4px}
+  .search-row input{padding:9px 10px;font-size:13px}
+  .search-row button{padding:9px 8px;font-size:12px}
+  .card{padding:0.9rem}
+  .header h1{font-size:17px}
+}
 </style>
 </head>
 <body>
